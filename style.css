@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px 118px;
+}
+
+.First{
+
+    background-image: url('C:/Users/eljanash/Desktop/FigmaTask/Images/bgc.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.title{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    
+}
+
+
+
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #fff;
+    position: relative;
+    border-right:1px solid transparent;
+    border-left:1px solid transparent;
+    
+
+}
+
+.element a{
+    color: #fff;
+    width: 100%;
+}
+
+.element1 a{
+    color: #fff;
+    width: 100%;
+}
+
+.element{
+    border-right: 1px solid #fff;
+    padding:10px 0;
+    padding-right:200px;
+    margin: 0 auto;
+   
+}
+
+.element1{
+    
+    padding:10px 0;
+    padding-right:100px;
+    margin: 0 auto;
+   
+}
+
+/* .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.buttons{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 24%;
+    transform: translate(-50%,50%);
+}
+
+
+
+.button a{
+    color: #fff;
+
+}
+
+.button{
+    padding:10px 20px;
+    border: 1px solid #99862A;
+    background-color:#99862A;
+    margin-right: 20px;
+ 
+
+    
+    
+}
+
